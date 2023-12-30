@@ -4,7 +4,7 @@ import '../models/mahasiswa.dart';
 
 Future<List<Mahasiswa>> fetchData() async {
   final response =
-      await http.get(Uri.parse('http://192.168.110.43:3000/mahasiswa'));
+      await http.get(Uri.parse('http://192.168.185.19:3000/mahasiswa'));
 
   if (response.statusCode == 200) {
     final List<dynamic> data = jsonDecode(response.body);
