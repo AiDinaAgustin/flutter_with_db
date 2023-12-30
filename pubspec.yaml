@@ -9,6 +9,7 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  http: ^0.13.3  # Tambahkan baris ini untuk menambahkan paket http dengan versi ^0.13.3
 
 dev_dependencies:
   flutter_test:
